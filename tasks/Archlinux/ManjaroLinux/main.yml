@@ -1,0 +1,10 @@
+---
+- name: Guide
+  debug:
+    msg: "Hello Manjaro!"
+
+- name: Install Virt-Manager
+  community.general.pacman:
+    name: virt-manager
+    state: present
+  become: true

@@ -1,0 +1,4 @@
+---
+- name: Guide
+  debug:
+    msg: "Hello Arch Linux!"
